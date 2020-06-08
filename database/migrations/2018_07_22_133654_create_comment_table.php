@@ -16,7 +16,7 @@ class CreateCommentTable extends Migration
         Schema::create('comment', function (Blueprint $table) {
             $table->increments('id');
             $table->string('comment',300);
-            $table->integer('article_id');
+            $table->integer('restaurant_id');
             $table->integer('user_id');
             $table->boolean('status');
             $table->boolean('isdelete')->default(0);
