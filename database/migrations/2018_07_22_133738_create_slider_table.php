@@ -20,6 +20,7 @@ class CreateSliderTable extends Migration
             $table->string('image',50);
             $table->boolean('status');
             $table->boolean('isdelete')->default(0);
+            $table->string('url',400);
             $table->integer('created_by');
             $table->integer('updated_by')->nullable();
             $table->timestamps();
