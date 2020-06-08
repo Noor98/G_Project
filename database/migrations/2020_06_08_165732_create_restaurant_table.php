@@ -20,9 +20,9 @@ class CreateRestaurantTable extends Migration
             $table->text('details');
             $table->integer('category_id');
             $table->string('image',50)->nullable();
-            $table->boolean('allowcomment');
-            $table->boolean('status');
-            $table->boolean('isdelete')->default(0);
+            $table->tinyint('allowcomment');
+            $table->tinyint('status');
+            $table->tinyint('isdelete')->default(0);
             $table->integer('created_by');
             $table->integer('updated_by')->nullable();
             $table->timestamps();
