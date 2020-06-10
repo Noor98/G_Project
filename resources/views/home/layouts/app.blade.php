@@ -36,7 +36,7 @@
 	<!-- Custom - Common CSS -->
     
 	<link rel="stylesheet" type="text/css" href="/css/plugins.css">
-    	<link rel="stylesheet" type="text/css" href="{{/'css/plugins.css}}">
+    	<link rel="stylesheet" type="text/css" href="{{/css/plugins.css}}">
 
 	<link rel="stylesheet" type="text/css" href="{{/css/navigation-menu.css}}">
 	
