@@ -36,18 +36,19 @@
 	<!-- Custom - Common CSS -->
     
 	<link rel="stylesheet" type="text/css" href="/css/plugins.css">
-    	<link rel="stylesheet" type="text/css" href="{{asset('css/plugins.css')}}">
+    	<link rel="stylesheet" type="text/css" href="{{/'css/plugins.css}}">
 
-	<link rel="stylesheet" type="text/css" href="{{asset('css/navigation-menu.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{/css/navigation-menu.css}}">
 	
 	<!-- Custom - Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="{{asset('style.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('css/shortcodes.css')}}">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/shortcodes.css">
 		
 	<!--[if lt IE 9]>
 		<script src="js/html5/respond.min.js"></script>
     <![endif]-->
      
+
 
 </head>
 
